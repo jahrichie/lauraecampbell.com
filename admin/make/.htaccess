@@ -1,0 +1,2 @@
+AuthName "quote maker"
+AuthUserFile "/home/lauraeca/.htpasswds/public_html/admin/make/passwd"

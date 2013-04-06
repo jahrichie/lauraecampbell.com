@@ -1,0 +1,216 @@
+
+@charset "UTF-8";
+/* by  CHYEAA DESEIGN http://chyeaa.com   jahrichie@chyeaa.com
+
+PALLET:purple: #954E9E, 
+ASSETS: carousel: http://www.dynamicdrive.com/dynamicindex4/stepcarousel.htm
+
+*/
+ 
+/* CHYEAA DESEIGN
+h html
+*/
+
+body { font-family:arial;color:#000;font-size:12px;   margin:0}
+
+ 
+li, ul {display: inline;list-style-type: none;}
+
+p { font-family:arial;margin: 25px 0 25px 0;}
+
+img a:hover {border:1px solid #ccc; }
+
+img {border:0;}
+
+h15 {font-family:arial;color:#000; font-size:25px;text-transform:uppercase}
+
+/* CHYEAA DESEIGN
+divs/spans
+*/
+
+#center-wrap {
+height:800px;
+background:#FFF;
+margin-bottom:25px; 
+padding:15px;margin-left:auto;margin-right:auto;width:800px; 
+border: 1px solid #ccc; 
+-moz-border-radius-topleft:5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+}
+
+
+#body-wrap {  background: url("images/dan.jpg") repeat;  ;}
+
+#name {margin:15px 0  0 25px;position:absolute; }
+
+ 
+
+#download {font-family:arial;font-size:14px;padding:2px;}
+
+#download a:link {color:#000; text-decoration:none;}      /* unvisited link */
+#download  a:visited {color:#000; text-decoration:none;}  /* visited link */
+#download  a:hover {color:#954E9E;  text-decoration:none;    }  /* mouse over link */
+#download  a:active {color:#000;text-decoration:none;}  /* selected link */
+
+
+
+
+
+#header{background:#fff url("images/header-bg.png") center top; margin:0; width:800px;height:150px;}
+ 
+#navish {padding:   67px 0 0 350px;}
+#navish ul { } 
+#navish li { color:#fff;text-transform:uppercase;font-family:arial;font-size:16px;padding-right:10px;padding-left:10px;}
+#navish a:link {color:#fff; text-decoration:none;}      /* unvisited link */
+#navish  a:visited {color:#fff; text-decoration:none;}  /* visited link */
+#navish  a:hover {color:#000;  text-decoration:none;   }  /* mouse over link */
+#navish  a:active {color:#fff;text-decoration:none;}  /* selected link */
+
+
+ 
+#footer {text-align:right;text-transform:uppercase;padding-right:15px;padding-top:15px;font-family:arial;font-size:10px; margin-left:auto;margin-right:auto;width:872px;height:30px;color:white;background:#fff url("images/bg_texture.png") center top;}
+.sitemap {background:#954E9E;}
+
+#review-quotes {margin-top: 25px ;}
+#head-shot { padding-left: 170px;}
+
+ #contact {width:700px; margin:0 0 0 40px;padding:5px;overflow:none; background:white;position:fixed; bottom:0;
+	-moz-border-radius-topleft:10px ;-moz-border-radius-topright: 10px;-moz-border-radius-bottomright: 0;-moz-border-radius-bottomleft: 0;-webkit-border-top-left-radius: 10px;-webkit-border-top-right-radius: 10px;-webkit-border-bottom-right-radius: 0;-webkit-border-bottom-left-radius: 0; border-top:5px solid #cc66cc; border-left:5px solid #cc66cc; border-right: 5px solid #cc66cc;}
+
+#contact p {font-family:arial;font-size:14px;color: #666}
+#contact ul, li {display: inline;list-style-type: none;}
+#contact li { font-family:yo;font-size:14px;color: #666; }
+#contact-copy{font-family:yo;font-size:14px;color: #666; float:left;width:320px;margin: 20px 0 0 15px ;}
+#abrams {float:left;width:50px;}
+#phone-email{ float:right;font-family:arial;font-size:12px;color: #666;margin: 15px 15px 0 15px ;  }
+
+
+
+#contact a:link {color:#000; text-decoration:none;}      /* unvisited link */
+#contact  a:visited {color:#000; text-decoration:none;}  /* visited link */
+#contact  a:hover {color:#FFF;background:#954E9E;  text-decoration:none;  }  /* mouse over link */
+#contact  a:active {color:#000;text-decoration:none;}  /* selected link */
+
+.black {color:black;} 
+
+
+
+
+
+
+ 
+#footer {text-align:right;text-transform:uppercase;padding-right:15px;padding-top:15px;font-family:arial;font-size:10px; margin-left:auto;margin-right:auto;width:872px;height:30px;color:white;background:#fff url("images/bg_texture.png") center top;}
+.sitemap {background:#954E9E;}
+
+#review-quotes {margin-top: 25px ;}
+#head-shot { padding-left: 170px;}
+
+#contact{ }
+
+
+#pics{width:850px; overflow:none;}
+#play{width:350px;height:300px;}
+#play img {border:1px solid #954E9E; margin:5px;padding:1px;}
+#movies {}
+ #resume { margin-left:auto;margin-right:auto;width:600px;}
+.left{float:left;overflow:none; }
+.right{ float:right; overflow:none;}
+
+
+
+
+.purple-quote {width:500px;color:white;margin-left:15px;background-color:#954E9E; }
+.grey{width:200px;font-family:arial;color:#666;font-size:8pt;}
+.small {width:300px;font-family:nevis; font-size:8px;text-transform:uppercase}
+.resume-header {font-family:arial;font-size:14px;text-transform:uppercase;font-weight:bold}
+
+ 
+#needle { background:#954E9E url("images/bg_texture.png") center top; width:100%; height:300px;}
+
+/* 
+open source typograpy 
+*/
+
+
+
+
+@font-face { font-family: helv62; src: url('fonts/helv.otf;'); } 
+@font-face { font-family: helv62; font-weight: bold; src: url('fonts/helv.otf'); }
+ 
+ @font-face { font-family: ital; src: url('fonts/helvi.otf;'); } 
+@font-face { font-family: ital; font-weight: bold; src: url('fonts/helvi.otf'); }
+
+@font-face { font-family: nevis; src: url('fonts/nevis.otf'); } 
+@font-face { font-family: nevis; font-weight: bold; src: url('fonts/nevis.otf'); }
+
+@font-face { font-family: ocr; src: url('fonts/OCRAStd.otf'); } 
+@font-face { font-family: ocr; font-weight: bold; src: url('fonts/OCRAStd.otf'); }
+
+@font-face { font-family: ocr; src: url('fonts/OCRAStd.otf'); } 
+@font-face { font-family: ocr; font-weight: bold; src: url('fonts/OCRAStd.otf'); }
+
+@font-face { font-family: yo; src: url('fonts/helv.otf'); } 
+@font-face { font-family: yo; font-weight: bold; src: url('fonts/helv.otf'); }
+
+
+
+@font-face { font-family: exist; src: url('fonts/Existence-Light.otf'); } 
+@font-face { font-family: exist; font-weight: bold; src: url('fonts/Existence-Light.otf'); }
+
+
+
+
+
+
+
+
+
+ 
+#top-hat { height:20px; }
+#bottom { margin-left:auto;margin-right:auto; width:800px;}
+
+#bottom ul { font-family:arial;font-size:12px; margin:0 0 0 600px; }
+#bottom li {margin-right:15px;}
+#bottom a:link {color:#954E9E; text-decoration:none;}      /* unvisited link */
+#bottom  a:visited {color:#954E9E; text-decoration:none;}  /* visited link */
+#bottom  a:hover {color:#000;  text-decoration:none;   }  /* mouse over link */
+#bottom  a:active {color:#954E9E;text-decoration:none;}  /* selected link */
+#shoe {background: #FFF url("images/last-border.png") repeat;;    border-top:2px solid #666;  width:100%; height:150px;}
+
+
+
+
+
+ 
+/***********************************************
+* Step Carousel Viewer script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+.stepcarousel{
+position: relative; /*leave this value alone*/
+border: 0;
+overflow: scroll; /*leave this value alone*/
+width: 800px; /*Width of Carousel Viewer itself*/
+height:500px; /*Height should enough to fit largest content's height*/
+}
+
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+ width: 800px;
+ 
+}

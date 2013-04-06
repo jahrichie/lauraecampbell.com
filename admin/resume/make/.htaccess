@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "resume make"
+AuthUserFile "/home/lauraeca/.htpasswds/public_html/admin/resume/make/passwd"
+require valid-user

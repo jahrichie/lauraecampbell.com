@@ -1,0 +1,2 @@
+[08-Sep-2011 04:45:22] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/lauraeca/public_html/admin/local.php on line 3
+[08-Sep-2011 04:45:22] PHP Fatal error:  Call to undefined function  mysqlerror() in /home/lauraeca/public_html/admin/local.php on line 3

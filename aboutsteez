@@ -1,0 +1,220 @@
+
+@charset "UTF-8";
+/* by  CHYEAA DESEIGN http://chyeaa.com   jahrichie@chyeaa.com
+
+purp: #954E9E
+
+ASSETS: carousel: http://www.dynamicdrive.com/dynamicindex4/stepcarousel.htm
+
+*/
+
+
+body {  margin:0}  
+
+img {border:0;}
+
+
+h15 {font-family:nevis;color:#000; font-size:14px;text-transform:uppercase}
+
+ 
+
+
+
+	#center-wrap {   padding:15px;border-top: 1px solid #954E9E; border-left:1px solid #954E9E; border-right: 1px solid #954E9E; background-color:white; margin-left:auto;margin-right:auto;width:800px; 
+-moz-border-radius-topleft:5px ;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;}
+
+#body-wrap { background: url("images/dan.jpg") repeat;}
+
+
+#name {margin:15px 0  0 25px;position:absolute; }
+
+#header{background:#fff url("images/header-bg.png") center top; margin:0; width:800px;height:150px;}
+
+#navish {padding:   65px 0 0 400px;}
+#navish ul { } 
+#navish li {color:#fff;text-transform:uppercase;font-family:arial;font-size:16px;padding-right:10px;padding-left:10px;}
+#navish a:link {color:#fff; text-decoration:none;}      /* unvisited link */
+#navish  a:visited {color:#fff; text-decoration:none;}  /* visited link */
+#navish  a:hover {color:#000;  text-decoration:none;   }  /* mouse over link */
+#navish  a:active {color:#fff;text-decoration:none;}  /* selected link */
+#navish-imdb {margin:21px 0  0 275px;position:absolute;  }
+
+#footer { text-transform:uppercase;padding-right:15px;padding-top:15px;font-family:arial;font-size:10px; margin-left:auto;margin-right:auto;width:832px;height:30px;color:white;background:#fff url("images/bg_texture.png") center top;}
+
+#download {border:2px solid	 #ccc ;}
+#download a:link {color:#fff; text-decoration:none;}      /* unvisited link */
+#download  a:visited {color:#fff; text-decoration:none;}  /* visited link */
+#download  a:hover {color:#000;  text-decoration:none;background:#fff;   }  /* mouse over link */
+#download  a:active {color:#fff;text-decoration:none;}  /* selected link */
+#resume {font-family:arial;font-size:12px;margin-bottom:175px;margin-left:auto;margin-right:auto;width:600px;}
+.resume-header {font-family:arial;font-size:34px;text-transform:uppercase;font-weight:bold;}
+
+#resume-header:first-letter {font-size:14;color:red;}
+
+
+
+#contact {width:700px; margin:0 0 0 40px;padding:5px;overflow:none; background:white;position:fixed; bottom:0;
+	-moz-border-radius-topleft:10px ;-moz-border-radius-topright: 10px;-moz-border-radius-bottomright: 0;-moz-border-radius-bottomleft: 0;-webkit-border-top-left-radius: 10px;-webkit-border-top-right-radius: 10px;-webkit-border-bottom-right-radius: 0;-webkit-border-bottom-left-radius: 0; border-top:5px solid #cc66cc; border-left:5px solid #cc66cc; border-right: 5px solid #cc66cc;}
+
+#contact p {font-family:;font-size:16px;color: #666}
+#contact ul, li {display: inline;list-style-type: none;}
+#contact li { font-family:helv62;font-size:16px;color: #666; }
+#contact-copy{font-family:helv62;font-size:16px;color: #666; float:left;width:320px;margin: 20px 0 0 15px ;}
+#abrams {float:left;width:50px;}
+#phone-email{ float:right;font-family:helv62;font-size:12px;color: #666;margin: 15px 15px 0 15px ;  }
+
+
+
+#contact a:link {color:#000; text-decoration:none;}      /* unvisited link */
+#contact  a:visited {color:#000; text-decoration:none;}  /* visited link */
+#contact  a:hover {color:#FFF;background:#954E9E;  text-decoration:none;  }  /* mouse over link */
+#contact  a:active {color:#000;text-decoration:none;}  /* selected link */
+
+.black {color:black;} 
+
+#about-pic {width:200px;float:left;}
+#about-pic img {border:1px solid #954E9E;}
+#about-statement { width:520px;float:right;height:1000px;}
+#about-statement p {font-family:arial;font-size:32px;}
+.das-large {font-size:28px;font-family:nevis;}
+.das-italic { font-size:22px;font-family:ital;}
+.ocr {font-size:18px;font-family:ocr;}
+.purp-font {color:#954E9E;} 
+.grey{text-transform:lowercase;color:#666;}
+
+
+
+#about-area { width:800px;overflow:none;height:500px;} 
+.das-large {text-transform:uppercase;font-size:28px;font-family:nevis;}
+.das-italic { font-size:22px;font-family:ital;}
+.ocr {font-size:18px;font-family:ocr;}
+
+
+ 
+#review-quotes { margin: 75px 0 0 0  ;}
+#head-shot { width:581px;margin-left:auto;margin-right:auto;}
+#head-shot img {border:3px solid #954E9E;}
+ 
+
+
+
+#pics{width:800px; overflow:none;}
+#play{width:350px;height:550px;}
+#play img {border:1px solid #954E9E; margin:5px;padding:1px;}
+
+.left{float:left;overflow:none; }
+.right{ float:right; overflow:none;}
+ 
+#quote-logo{width:125px;}
+#quote-copy{margin:20px 50px 0 0;font-family: Times,serif;font-size:16px; padding:5px;width:600px;background:#954E9E;color:white;border:5px solid #ccc;-moz-border-radius-topleft:5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;}
+
+#shoe {background: #FFF;    border-top:5px solid #ccc;  width:100%; height:150px}
+
+
+#quote-copy b {font-weight: bold; font-size:18px;color:#ccc;}
+ 
+
+#admin-nav {margin: 15px 0 0 0;}
+#admin-wrap {width:800px;margin-left:auto;margin-right:auto;}
+#admin-nav ul,#admin-nav li,  {display: inline;list-style-type: none;}
+#admin-nav li {padding-left:15px;padding-right:15px;}
+
+
+
+#top-hat { height:20px; }
+#bottom {margin-left:auto;margin-right:auto; width:800px;}
+
+#bottom ul { font-family:arial;font-size:12px;margin:0 0 0 600px;}
+#bottom li {margin-right:15px;}
+#bottom a:link {color:#954E9E; text-decoration:none;}      /* unvisited link */
+#bottom  a:visited {color:#954E9E; text-decoration:none;}  /* visited link */
+#bottom  a:hover {color:#000;  text-decoration:none;   }  /* mouse over link */
+#bottom  a:active {color:#954E9E;text-decoration:none;}  /* selected link */
+
+
+
+
+
+
+
+
+
+
+
+/*paste
+
+
+
+*/
+
+
+
+
+/* 
+open source typograpy 
+*/
+@font-face { font-family: helv62; src: url('fonts/helv.otf;'); } 
+@font-face { font-family: helv62; font-weight: bold; src: url('fonts/helv.otf'); }
+ 
+ @font-face { font-family: ital; src: url('fonts/helvi.otf;'); } 
+@font-face { font-family: ital; font-weight: bold; src: url('fonts/helvi.otf'); }
+
+@font-face { font-family: nevis; src: url('fonts/nevis.otf'); } 
+@font-face { font-family: nevis; font-weight: bold; src: url('fonts/nevis.otf'); }
+
+@font-face { font-family: ocr; src: url('fonts/OCRAStd.otf'); } 
+@font-face { font-family: ocr; font-weight: bold; src: url('fonts/OCRAStd.otf'); }
+
+@font-face { font-family: ocr; src: url('fonts/OCRAStd.otf'); } 
+@font-face { font-family: ocr; font-weight: bold; src: url('fonts/OCRAStd.otf'); }
+
+@font-face { font-family: yo; src: url('fonts/helv.otf'); } 
+@font-face { font-family: yo; font-weight: bold; src: url('fonts/helv.otf'); }
+
+
+
+
+
+
+
+ 
+/***********************************************
+* Step Carousel Viewer script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+.stepcarousel{
+position: relative; /*leave this value alone*/
+border: 0;
+overflow: scroll; /*leave this value alone*/
+width: 800px; /*Width of Carousel Viewer itself*/
+height: 125px; /*Height should enough to fit largest content's height*/
+}
+
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin: 20px; /*margin around each panel*/
+width: 800px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+height:800px;
+}

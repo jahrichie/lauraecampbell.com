@@ -1,0 +1,69 @@
+ 
+--
+-- Table structure for table `education`
+--
+ 
+INSERT INTO `education` VALUES('2005-2008: ', 'Columbia University, MFA Acting', '', 0);
+INSERT INTO `education` VALUES('2001-2005:', 'Tulane University, BA Theatre', '', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `film`
+--
+ 
+INSERT INTO `film` VALUES('Hills Like White Elephants', 'Woman (lead)', 'Columbia Film/ dir. Bo Bishop', 0);
+INSERT INTO `film` VALUES('American Splendor', 'Lead', 'Columbia Film/ dir. Mike Hill', 0);
+INSERT INTO `film` VALUES('The Kiss', 'Woman (lead)', 'Columbia Film/ dir. Bo Bishop', 0);
+INSERT INTO `film` VALUES('NOLA', 'Pam', 'New Orleans, LA/ dir. Harold Sylvester', 0);
+
+-- --------------------------------------------------------
+
+-- 
+
+INSERT INTO `specialskills` VALUES('Singing: 	', 'Three years: Tulane Faculty', '', 0);
+INSERT INTO `specialskills` VALUES('Dialects:', 'Irish; Northern and Southern, standard British', '', 0);
+INSERT INTO `specialskills` VALUES('Athletics:', 'Pilates, basketball, soccer, snowboarding', '', 0);
+
+-- --------------------------------------------------------
+
+-- 
+
+INSERT INTO `theatre` VALUES('The Lion in Winter', 'Alias', 'NJ Shakespeare Theatre / dir. Paul Mullins', 0);
+INSERT INTO `theatre` VALUES('Dinner', 'Sian', 'Bay Street Theatre /dir. David Esbjornson', 0);
+INSERT INTO `theatre` VALUES('Dust', 'Jenny  	', 'West Side Theatre / dir. Scott Zigler ', 0);
+INSERT INTO `theatre` VALUES('Taming of the Shrew', 'Widow/Curtis', '	Classic Stage Co. / dir. Tony Speciale ', 0);
+INSERT INTO `theatre` VALUES('Another Country', 'Actor', 'Theatre at Riverside/ dir. Diane Paulus', 0);
+INSERT INTO `theatre` VALUES('Pitched', 'Robin', 'Actor''s Playhouse/ dir. Luke Leonard', 0);
+INSERT INTO `theatre` VALUES('Three Penny Opera', 'Jenny', 'Schapiro Theatre/ dir. Nikky Wolcz', 0);
+INSERT INTO `theatre` VALUES('Fetes de la Nuit', 'Yvette', 'Theatre at Riverside/ dir. Kim Weild', 0);
+INSERT INTO `theatre` VALUES('Largo Desolato', 'Marguerite', 'Schapiro Studio/ dir. Rebecca Easton', 0);
+INSERT INTO `theatre` VALUES('The Welcome Mask', 'Daughter', 'Inverse Theatre Co./ dir. Michael Rau', 0);
+INSERT INTO `theatre` VALUES('Who''s To Blame', 'Narrator', 'Schapiro Studio/ dir. Kristin Linklater', 0);
+INSERT INTO `theatre` VALUES('The Lower Depths', 'Nastya', 'Schapiro Tehatre/ dir. Nicky & Ulla Wolcz', 0);
+INSERT INTO `theatre` VALUES('The Lower Depths', 'Nastya\r\n', 'Schapiro Tehatre/ dir. Nicky & Ulla Wolcz', 0);
+INSERT INTO `theatre` VALUES('After', 'Aurelie', 'Schapiro Theatre/ dir. Anne Bogart ', 0);
+INSERT INTO `theatre` VALUES('Electra', 'Electra', 'Schapiro Theatre/ dir. Nicky & Ulla Wolcz', 0);
+INSERT INTO `theatre` VALUES('The Gentleman Caller	', 'Fern', 'Schapiro Theatre/ dir. Anne Bogar', 0);
+INSERT INTO `theatre` VALUES('Uncle Vanya	', 'Yelena', 'Lab 103 New Orleans/ dir. Bruce Podewell', 0);
+INSERT INTO `theatre` VALUES('Big Love', 'Lydia', 'TU-Lab/ dir. Aimee Hayes', 0);
+INSERT INTO `theatre` VALUES('Madame De Sade', 'Renee', 'TU-Mainstage/ dir. Bruce Podewell', 0);
+INSERT INTO `theatre` VALUES('The Rivals', 'Lydia Languish', 'TU-Mainstage/ dir. Bruce Podewell', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `training`
+--
+ 
+
+INSERT INTO `training` VALUES('Voice:', 'Kristin Linklater, Andrea Harring', '', 0);
+INSERT INTO `training` VALUES('Viewpoints:', 'Anne Bogart, Tina Landeau, Barney O''Hanlon', '', 0);
+INSERT INTO `training` VALUES('Movement:', 'Nicky Wolcz (biomechanics, clowning, commedia dell''arte, mask work)  Anthony Sandoval (Suzuki)', '', 0);
+
+-- --------------------------------------------------------
+
+ 
+
+INSERT INTO `tv` VALUES('Law & Order', 'Guest Lead', 'NBC', 0);
+INSERT INTO `tv` VALUES('Law & Order: Criminal Intent', 'Guest Lead', 'USA', 0);

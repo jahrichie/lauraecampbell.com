@@ -1,0 +1,135 @@
+
+@charset "UTF-8";
+/* by  CHYEAA DESEIGN http://chyeaa.com   jahrichie@chyeaa.com
+
+
+ASSETS: carousel: http://www.dynamicdrive.com/dynamicindex4/stepcarousel.htm
+
+*/
+ 
+/* CHYEAA DESEIGN
+h html
+*/
+
+body { background:#ccc url("images/bg_texture.png") center top;  margin:0}
+
+img {border:0;}
+
+
+  
+/* CHYEAA DESEIGN
+divs/spans
+*/  
+#top-hat {background:#ccc url("images/bg_texture.png") center top; }
+
+#center-wrap {margin-top:5px;border-top: 1px solid #666; border-left:1px solid #666; border-right: 1px solid #666; background-color:white;padding:15px;margin-left:auto;margin-right:auto;width:800px; 
+-moz-border-radius-topleft:10px ;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomright: 0;
+-moz-border-radius-bottomleft: 0;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-right-radius: 0;
+-webkit-border-bottom-left-radius: 0;}
+
+#body-wrap {background:#ccc url("images/bg_texture.png") center top;   }
+
+
+#name {margin:15px 0  0 25px;position:absolute; }
+
+#header{background:#fff url("images/header-bg.png") center top; margin:0; width:800px;height:150px;}
+
+#navish {padding:  67px 0 0 330px;}
+#navish ul { } 
+#navish li {color:#fff;text-transform:uppercase;font-family:yo;font-size:20px;padding-right:10px;padding-left:10px;}
+#navish a:link {color:#fff; text-decoration:none;}      /* unvisited link */
+#navish  a:visited {color:#fff; text-decoration:none;}  /* visited link */
+#navish  a:hover {color:#000;  text-decoration:none;   }  /* mouse over link */
+#navish  a:active {color:#fff;text-decoration:none;}  /* selected link */
+
+
+#footer { ext-transform:uppercase;padding-right:15px;padding-top:15px;font-family:arial;font-size:10px; margin-left:auto;margin-right:auto;width:832px;height:30px;color:white;background:#fff url("images/bg_texture.png") center top;}
+#contact { margin: 0 0 0 0;  font-family:yo;color:#666;overflow:none; background:#fff;position:fixed; bottom:0;}
+#contact-button {margin-bottom: 5px;margin-left:auto;margin-right:auto;width:800px;font-family:yo;font-size:20px;color: #666}
+#contact p {font-family:yo;font-size:20px;color: #666}
+#contact ul, li {display: inline;list-style-type: none;}
+#contact li {margin: 0 0 0 25px ;font-family:yo;font-size:16px;color: #666; }
+#contact-copy{float:left;width:500px;}
+#contact a:link {color:#000; text-decoration:none;}      /* unvisited link */
+#contact  a:visited {color:#000; text-decoration:none;}  /* visited link */
+#contact  a:hover {color:#954E9E;  text-decoration:none;  }  /* mouse over link */
+#contact  a:active {color:#000;text-decoration:none;}  /* selected link */
+
+
+
+/* 
+
+not main
+
+*/
+#review-quotes {margin: 25px 0 75px 0  ;}
+#head-shot { padding-left: 170px;}
+ 
+ 
+/*paste
+
+
+
+*/
+
+
+
+
+/* 
+open source typograpy 
+*/
+@font-face { font-family: helv62; src: url('fonts/helv.otf;'); } 
+@font-face { font-family: helv62; font-weight: bold; src: url('fonts/helv.otf'); }
+ 
+ @font-face { font-family: ital; src: url('fonts/helvi.otf;'); } 
+@font-face { font-family: ital; font-weight: bold; src: url('fonts/helvi.otf'); }
+
+@font-face { font-family: nevis; src: url('fonts/nevis.otf'); } 
+@font-face { font-family: nevis; font-weight: bold; src: url('fonts/nevis.otf'); }
+
+@font-face { font-family: ocr; src: url('fonts/OCRAStd.otf'); } 
+@font-face { font-family: ocr; font-weight: bold; src: url('fonts/OCRAStd.otf'); }
+
+@font-face { font-family: ocr; src: url('fonts/OCRAStd.otf'); } 
+@font-face { font-family: ocr; font-weight: bold; src: url('fonts/OCRAStd.otf'); }
+
+@font-face { font-family: yo; src: url('fonts/HelveticaNeueLTStd-UltLt.otf'); } 
+@font-face { font-family: yo; font-weight: bold; src: url('fonts/HelveticaNeueLTStd-UltLt.otf'); }
+
+
+
+
+.purple-quote {width:500px;color:white;margin-left:15px;background-color:#954E9E; }
+
+
+ 
+/***********************************************
+* Step Carousel Viewer script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+.stepcarousel{
+position: relative; /*leave this value alone*/
+border: 0;
+overflow: scroll; /*leave this value alone*/
+width: 800px; /*Width of Carousel Viewer itself*/
+height: 125px; /*Height should enough to fit largest content's height*/
+}
+
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin: 20px; /*margin around each panel*/
+width: 800px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}

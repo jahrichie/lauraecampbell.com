@@ -1,0 +1,43 @@
+
+@charset "UTF-8";
+/* CHYEAA DESEIGN
+http://chyeaa.com
+jahrichie@chyeaa.com
+
+purple: #954E9E
+
+*/
+ 
+/* CHYEAA DESEIGN
+h html
+*/
+
+body { background:#954E9E url("images/bg_texture.png") center top;  margin:0}
+
+a:link {color:#000; text-decoration:none;}      /* unvisited link */
+a:visited {color:#000; text-decoration:none;}  /* visited link */
+a:hover {color:#ff6699;  text-decoration:none; background:black; }  /* mouse over link */
+a:active {color:#000;text-decoration:none;}  /* selected link */
+
+li, ul {display: inline;list-style-type: none;}
+
+  
+/* CHYEAA DESEIGN
+divs/spans
+*/
+#center-wrap {border-top: 2px solid #ccc; border-left: 2px solid #ccc; border-right: 2px solid #ccc; background-color:white;padding:15px;margin-left:auto;margin-right:auto;width:800px;}
+#body-wrap { background:#954E9E url("images/bg_texture.png") center top;   }
+#header{margin:0;}
+#sexytime {background:#954E9E url("images/bg_texture.png") center top; }
+#black {text-align:right;text-transform:uppercase;padding-top:15px;font-family:arial;font-size:10px;border-top: 2px solid #666; border-left: 2px solid #ccc; margin-left:auto;margin-right:auto;width:832px;border-bottom: 5px #ccc solid;height:30px;color:white;background:#ccc url("images/bg_texture.png") center top;}
+#review-quotes {margin-top: 25px ;}
+#head-shot { padding-left: 170px;}
+ 
+/* CHYEAA DESEIGN
+open source typograpy 
+*/
+@font-face { font-family: dope; src: url('fonts/nevis.otf'); } 
+@font-face { font-family: dope; font-weight: bold; src: url('fonts/nevis.otf'); }
+ 
+
+.purple-quote {width:500px;color:white;margin-left:15px;background-color:#954E9E; }
